@@ -1,3 +1,3 @@
 # qalpha
-Quality Assessment using Alpha Fold DB /n
+Quality Assessment using Alpha Fold DB
 run: conda activate
