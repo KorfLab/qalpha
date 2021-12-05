@@ -1,3 +1,3 @@
 # qalpha
 Quality Assessment using Alpha Fold DB <br />
-run: conda activate
+Must be run in a conda environment --> run: conda activate
