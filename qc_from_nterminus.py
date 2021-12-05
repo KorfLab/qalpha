@@ -9,6 +9,8 @@ import sys
 import numpy as np
 from Bio.PDB import MMCIF2Dict
 
+with open('data.json', 'w') as f: json.dump('----------CURRENT DATA FROM MOST RECENT RUN----------', f,indent=2)
+
 parser = argparse.ArgumentParser(description=''.join(
 	('generate targets for poor gene quality from alphafold models')))
 parser.add_argument('--pdbs', required=True, type=str,
@@ -67,7 +69,4 @@ for file in os.listdir(arg.pdbs):
 			data[afold_id]["GLOBAL SCORE:"] = glob_float
 			data[afold_id]["LOCAL SCORE"] = avg_score
 			print(data)
-
-file_path = 'processing_out.txt'
-sys.stdout = open(file_path, "w")
-print(data)
+			with open('data.json', 'a') as f: json.dump(data, f,indent=2)

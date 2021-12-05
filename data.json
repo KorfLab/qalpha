@@ -1,0 +1,121 @@
+"----------CURRENT DATA FROM MOST RECENT RUN----------"{
+  "Q22778": {
+    "WORMBASE:": "CELE_T25D1.2",
+    "GLOBAL SCORE:": 83.68,
+    "LOCAL SCORE": 29.025
+  }
+}{
+  "O01448": {
+    "WORMBASE:": "nhr-147",
+    "GLOBAL SCORE:": 81.98,
+    "LOCAL SCORE": 33.732
+  }
+}{
+  "U4PM93": {
+    "WORMBASE:": "CELE_F49F1.18",
+    "GLOBAL SCORE:": 82.7,
+    "LOCAL SCORE": 41.957
+  }
+}{
+  "O45531": {
+    "WORMBASE:": "clec-22",
+    "GLOBAL SCORE:": 87.66,
+    "LOCAL SCORE": 39.282000000000004
+  }
+}{
+  "Q6AW06": {
+    "WORMBASE:": "dot-1.1",
+    "GLOBAL SCORE:": 66.15,
+    "LOCAL SCORE": 40.754
+  }
+}{
+  "G5EEW5": {
+    "WORMBASE:": "CELE_F54E12.2",
+    "GLOBAL SCORE:": 64.54,
+    "LOCAL SCORE": 36.236000000000004
+  }
+}{
+  "Q23154": {
+    "WORMBASE:": "CELE_W04D12.1",
+    "GLOBAL SCORE:": 61.31,
+    "LOCAL SCORE": 43.931
+  }
+}{
+  "Q17846": {
+    "WORMBASE:": "C09B8.4",
+    "GLOBAL SCORE:": 87.0,
+    "LOCAL SCORE": 32.823
+  }
+}{
+  "H2KY58": {
+    "WORMBASE:": "ain-2",
+    "GLOBAL SCORE:": 51.01,
+    "LOCAL SCORE": 43.568
+  }
+}{
+  "Q18153": {
+    "WORMBASE:": "C25E10.4",
+    "GLOBAL SCORE:": 85.4,
+    "LOCAL SCORE": 28.919
+  }
+}{
+  "Q18034": {
+    "WORMBASE:": "nfx-1",
+    "GLOBAL SCORE:": 65.26,
+    "LOCAL SCORE": 41.157999999999994
+  }
+}{
+  "H2KZQ8": {
+    "WORMBASE:": "sec-16a.2",
+    "GLOBAL SCORE:": 51.31,
+    "LOCAL SCORE": 32.79299999999999
+  }
+}{
+  "Q65XX2": {
+    "WORMBASE:": "Y54E10A.11",
+    "GLOBAL SCORE:": 78.65,
+    "LOCAL SCORE": 29.912
+  }
+}{
+  "Q20329": {
+    "WORMBASE:": "CELE_F42C5.9",
+    "GLOBAL SCORE:": 87.86,
+    "LOCAL SCORE": 29.663
+  }
+}{
+  "D9PTP5": {
+    "WORMBASE:": "snx-6",
+    "GLOBAL SCORE:": 80.49,
+    "LOCAL SCORE": 27.85
+  }
+}{
+  "Q19610": {
+    "WORMBASE:": "CELE_F20A1.6",
+    "GLOBAL SCORE:": 38.15,
+    "LOCAL SCORE": 34.878
+  }
+}{
+  "Q22783": {
+    "WORMBASE:": "CELE_T25G12.6",
+    "GLOBAL SCORE:": 68.58,
+    "LOCAL SCORE": 27.8
+  }
+}{
+  "Q2PJ77": {
+    "WORMBASE:": "yif-1",
+    "GLOBAL SCORE:": 68.85,
+    "LOCAL SCORE": 38.688
+  }
+}{
+  "O18087": {
+    "WORMBASE:": "nhr-127",
+    "GLOBAL SCORE:": 86.97,
+    "LOCAL SCORE": 43.074
+  }
+}{
+  "P34263": {
+    "WORMBASE:": "B0303.14",
+    "GLOBAL SCORE:": 71.48,
+    "LOCAL SCORE": 41.781
+  }
+}
