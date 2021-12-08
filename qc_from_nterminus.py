@@ -45,7 +45,8 @@ for file in os.listdir(arg.pdbs):
 		ind = cif_dic['_atom_site.label_seq_id']
 		qas = cif_dic['_atom_site.B_iso_or_equiv']
 		glob = cif_dic['_ma_qa_metric_global.metric_value']
-		
+		glob_float = float(glob[0]) #GLOBAL FILTRATION
+		if glob_float < float(arg.glob): continue 
 
 		scores = dict()
 		for aa, id, score in zip(seq, ind, qas):    
@@ -60,8 +61,7 @@ for file in os.listdir(arg.pdbs):
 		assert(len(n_term_scores) == arg.window)
 		avg_score = np.mean(np.array(n_term_scores))
 		data = dict()
-		glob_float = float(glob[0]) #GLOBAL FILTRATION
-		if glob_float > float(arg.glob): continue #less than or less than/equal to?
+		
 
 		if (avg_score < float(arg.threshold)): #LOCAL FILTRATION. less than or less than/equal to?
 			data[afold_id] = {}
