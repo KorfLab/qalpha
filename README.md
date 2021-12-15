@@ -10,17 +10,21 @@ To run:
 
 ## Test data build ##
 
+Starting from the build directory
+
+	cd build
+
 Download nematode portion of TREMBL 2021_04 from Uniprot website. Filtering based on taxonomy to nematode part of the tree.
 
 The uniprot deflines don't work with ab-blast because they don't actually follow the ncbi spec. Therefore there is a `uniprot_defmunge.pl` script to modify them. Your command may look something like this depending on the names and locations of your files.
 
-	gunzip -c build/nematodes.fasta.gz | perl uniprot_defmung.pl > build/nematodes.fasta
+	gunzip -c nematodes.fasta.gz | perl ../uniprot_defmung.pl > nematodes.fasta
 
-Make the blast database
+Make the blast database. This assumes you have installed ab-blast. It's free for personal use and better than ncbi-blast, so go get it.
 
 	xdformat -p nematodes.fasta
 
-Also index it so we can retrieve stuff later
+Also index it so we can retrieve stuff later.
 
 	xdformat -p -X nematodes.fasta
 
@@ -52,3 +56,6 @@ Generate a multiple alignment with whatever your favorite multiple alignment sof
 	clustalw top21.fa
 	t_coffee top21.fa
 
+Save this for later.
+
+	mv top21.fa ../example.fa
