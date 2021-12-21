@@ -1,26 +1,24 @@
-"----------CURRENT DATA FROM MOST RECENT RUN----------"{
-  "Q22778": {
-    "WORMBASE:": "CELE_T25D1.2",
-    "GLOBAL SCORE:": 83.68,
-    "LOCAL SCORE": 29.025
-  }
-}{
-  "O01448": {
-    "WORMBASE:": "nhr-147",
-    "GLOBAL SCORE:": 81.98,
-    "LOCAL SCORE": 33.732
-  }
-}{
-  "D9PTP5": {
-    "WORMBASE:": "snx-6",
-    "GLOBAL SCORE:": 80.49,
-    "LOCAL SCORE": 27.85
-  }
-}{
+[
+  "WINDOW:10",
+  "THRESHOLD:45.0",
+  "GLOBAL:80.0"
+]{
   "Q18153": {
     "WORMBASE:": "C25E10.4",
     "GLOBAL SCORE:": 85.4,
     "LOCAL SCORE": 28.919
+  }
+}{
+  "P54688": {
+    "WORMBASE:": "bcat-1",
+    "GLOBAL SCORE:": 91.16,
+    "LOCAL SCORE": 35.00500000000001
+  }
+}{
+  "Q22778": {
+    "WORMBASE:": "CELE_T25D1.2",
+    "GLOBAL SCORE:": 83.68,
+    "LOCAL SCORE": 29.025
   }
 }{
   "Q20329": {
@@ -29,9 +27,151 @@
     "LOCAL SCORE": 29.663
   }
 }{
+  "P25807": {
+    "WORMBASE:": "cpr-1",
+    "GLOBAL SCORE:": 93.27,
+    "LOCAL SCORE": 41.261
+  }
+}{
+  "D9PTP5": {
+    "WORMBASE:": "snx-6",
+    "GLOBAL SCORE:": 80.49,
+    "LOCAL SCORE": 27.85
+  }
+}{
   "Q17846": {
     "WORMBASE:": "C09B8.4",
     "GLOBAL SCORE:": 87.0,
     "LOCAL SCORE": 32.823
+  }
+}{
+  "O18087": {
+    "WORMBASE:": "nhr-127",
+    "GLOBAL SCORE:": 86.97,
+    "LOCAL SCORE": 43.074
+  }
+}{
+  "P34439": {
+    "WORMBASE:": "F54C8.1",
+    "GLOBAL SCORE:": 95.02,
+    "LOCAL SCORE": 41.080000000000005
+  }
+}{
+  "O45926": {
+    "WORMBASE:": "cyb-2.1",
+    "GLOBAL SCORE:": 90.14,
+    "LOCAL SCORE": 42.190999999999995
+  }
+}{
+  "U4PM93": {
+    "WORMBASE:": "CELE_F49F1.18",
+    "GLOBAL SCORE:": 82.7,
+    "LOCAL SCORE": 41.957
+  }
+}{
+  "O45531": {
+    "WORMBASE:": "clec-22",
+    "GLOBAL SCORE:": 87.66,
+    "LOCAL SCORE": 39.282000000000004
+  }
+}{
+  "O01448": {
+    "WORMBASE:": "nhr-147",
+    "GLOBAL SCORE:": 81.98,
+    "LOCAL SCORE": 33.732
+  }
+}{
+  "P50432": {
+    "WORMBASE:": "mel-32",
+    "GLOBAL SCORE:": 94.09,
+    "LOCAL SCORE": 41.071
+  }
+}[
+  "WINDOW:10",
+  "THRESHOLD:45.0",
+  "GLOBAL:80.0"
+]{
+  "Q18153": {
+    "WORMBASE:": "C25E10.4",
+    "GLOBAL SCORE:": 85.4,
+    "LOCAL SCORE": 28.919
+  }
+}{
+  "P54688": {
+    "WORMBASE:": "bcat-1",
+    "GLOBAL SCORE:": 91.16,
+    "LOCAL SCORE": 35.00500000000001
+  }
+}{
+  "Q22778": {
+    "WORMBASE:": "CELE_T25D1.2",
+    "GLOBAL SCORE:": 83.68,
+    "LOCAL SCORE": 29.025
+  }
+}{
+  "Q20329": {
+    "WORMBASE:": "CELE_F42C5.9",
+    "GLOBAL SCORE:": 87.86,
+    "LOCAL SCORE": 29.663
+  }
+}{
+  "P25807": {
+    "WORMBASE:": "cpr-1",
+    "GLOBAL SCORE:": 93.27,
+    "LOCAL SCORE": 41.261
+  }
+}{
+  "D9PTP5": {
+    "WORMBASE:": "snx-6",
+    "GLOBAL SCORE:": 80.49,
+    "LOCAL SCORE": 27.85
+  }
+}{
+  "Q17846": {
+    "WORMBASE:": "C09B8.4",
+    "GLOBAL SCORE:": 87.0,
+    "LOCAL SCORE": 32.823
+  }
+}{
+  "O18087": {
+    "WORMBASE:": "nhr-127",
+    "GLOBAL SCORE:": 86.97,
+    "LOCAL SCORE": 43.074
+  }
+}{
+  "P34439": {
+    "WORMBASE:": "F54C8.1",
+    "GLOBAL SCORE:": 95.02,
+    "LOCAL SCORE": 41.080000000000005
+  }
+}{
+  "O45926": {
+    "WORMBASE:": "cyb-2.1",
+    "GLOBAL SCORE:": 90.14,
+    "LOCAL SCORE": 42.190999999999995
+  }
+}{
+  "U4PM93": {
+    "WORMBASE:": "CELE_F49F1.18",
+    "GLOBAL SCORE:": 82.7,
+    "LOCAL SCORE": 41.957
+  }
+}{
+  "O45531": {
+    "WORMBASE:": "clec-22",
+    "GLOBAL SCORE:": 87.66,
+    "LOCAL SCORE": 39.282000000000004
+  }
+}{
+  "O01448": {
+    "WORMBASE:": "nhr-147",
+    "GLOBAL SCORE:": 81.98,
+    "LOCAL SCORE": 33.732
+  }
+}{
+  "P50432": {
+    "WORMBASE:": "mel-32",
+    "GLOBAL SCORE:": 94.09,
+    "LOCAL SCORE": 41.071
   }
 }

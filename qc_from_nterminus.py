@@ -9,7 +9,6 @@ import sys
 import numpy as np
 from Bio.PDB import MMCIF2Dict
 
-with open('data.json', 'w') as f: json.dump('----------CURRENT DATA FROM MOST RECENT RUN----------', f,indent=2)
 
 parser = argparse.ArgumentParser(description=''.join(
 	('generate targets for poor gene quality from alphafold models')))
@@ -22,6 +21,10 @@ parser.add_argument('--threshold', required=True, type=float,
 parser.add_argument('--glob', required=True, type=float,
         metavar='<float>', help='cutoff for global')
 arg = parser.parse_args()
+
+with open('data.json', 'a') as f: 
+		json.dump(["WINDOW:" + str(arg.window), "THRESHOLD:" + str(arg.threshold), "GLOBAL:"+ str (arg.glob)], f,indent=2)
+
 
 for file in os.listdir(arg.pdbs):
 	if 'AF-' not in file: continue
@@ -68,5 +71,5 @@ for file in os.listdir(arg.pdbs):
 			data[afold_id]["WORMBASE:"] = gene_id
 			data[afold_id]["GLOBAL SCORE:"] = glob_float
 			data[afold_id]["LOCAL SCORE"] = avg_score
-			print(data)
+			#print(data)
 			with open('data.json', 'a') as f: json.dump(data, f,indent=2)
