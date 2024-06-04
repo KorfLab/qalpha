@@ -10,8 +10,8 @@ import statistics
 import numpy as np
 from Bio.PDB import MMCIF2Dict
 
-# 1) Make a good way to eliminate shit data. Threshold seems like good way to eliminate shit data. 
-# 2) Find mean and standard deviation to pinpoint shit alignments 
+# 1) Make a good way to eliminate bad data. Threshold seems like good way to eliminate bad data. 
+# 2) Find mean and standard deviation to pinpoint bad alignments 
 # 3) Find Gene Sequences 
 gen = []
 for genome in os.listdir(sys.argv[1]):
@@ -23,7 +23,7 @@ for genome in os.listdir(sys.argv[1]):
 			if not line.startswith('>'):
 				if line.startswith('-'* int(sys.argv[2])): #setting an N-termini threshold, how to better find poor N-termini 
 					ma.append(line.rstrip())
-	if len(ma) > 3: #try to eliminate shit data
+	if len(ma) > 3: #try to eliminate poor data
 		gen.append(genome)
 
 			# elif line.startswith('>'):
